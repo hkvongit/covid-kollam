@@ -1,0 +1,11 @@
+.todays-report-container {
+    --default-margin-top: 0.75rem;
+    margin-top: var(--default-margin-top);
+}
+
+.status-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: var(--default-margin-top);
+}

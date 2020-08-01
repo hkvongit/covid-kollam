@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import Dashboard from './components/pages/Dashboard'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Rumi
+      <Dashboard/>
     </div>
   );
 }
