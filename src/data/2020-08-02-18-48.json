@@ -1,0 +1,189 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "02 August 2020 - Sunday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "69",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "168",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "0",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Case",
+                "count": "571",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarentined",
+                "count": "8548",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Karunagapally",
+            "count": "1"
+        },
+        {
+            "locality": "Thrikkaruva",
+            "count": "1"
+        },
+        {
+            "locality": "Panmana",
+            "count": "1"
+        },
+        {
+            "locality": "Kulathupuzha",
+            "count": "3"
+        },
+        {
+            "locality": "Kummil",
+            "count": "2"
+        },
+        {
+            "locality": "Karavaloor",
+            "count": "1"
+        },
+        {
+            "locality": "Kunnathur",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam East and West",
+            "count": "5"
+        },
+        {
+            "locality": "Thrikkaruva",
+            "count": "1"
+        },
+        {
+            "locality": "Nilamel",
+            "count": "1"
+        },
+        {
+            "locality": "Ochira",
+            "count": "1"
+        },
+        {
+            "locality": "Pathanapuram",
+            "count": "3"
+        },
+        {
+            "locality": "Poruvazhi",
+            "count": "1"
+        },
+        {
+            "locality": "Kottarakkara",
+            "count": "2"
+        },
+        {
+            "locality": "Anchal",
+            "count": "4"
+        },
+        {
+            "locality": "Sooranad South",
+            "count": "2"
+        },
+        {
+            "locality": "Punalur",
+            "count": "4"
+        },
+        {
+            "locality": "Neendakara",
+            "count": "3"
+        },
+        {
+            "locality": "Melila",
+            "count": "3"
+        },
+        {
+            "locality": "Edamulakkal",
+            "count": "1"
+        },
+        {
+            "locality": "Thrikkovilvattom",
+            "count": "1"
+        },
+        {
+            "locality": "Kulathupuzha",
+            "count": "2"
+        },
+        {
+            "locality": "Eroor",
+            "count": "1"
+        },
+        {
+            "locality": "Chithara",
+            "count": "1"
+        },
+        {
+            "locality": "Nedumpana",
+            "count": "1"
+        },
+        {
+            "locality": "Vilakudy",
+            "count": "1"
+        },
+        {
+            "locality": "Meenad",
+            "count": "1"
+        },
+        {
+            "locality": "Sooranad North",
+            "count": "1"
+        },
+        {
+            "locality": "Velinallur",
+            "count": "1"
+        },
+        {
+            "locality": "Thazhava",
+            "count": "1"
+        },
+        {
+            "locality": "Ittiva",
+            "count": "1"
+        },
+        {
+            "locality": "Thazhuthala",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam others",
+            "count": "17"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Total Report",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "1169",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "688",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "1",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}

@@ -1,18 +1,15 @@
 // import starting from the src/ folder
 
-.dashboard{
-
-    .title-bar{
+.dashboard {
+    .app-content {
+        margin: 0.8rem;
+        max-height: calc(100vh - 2.6rem);
+        height: 100%;
         display: flex;
-        background-color: var(--theme-color-primary) ;
-        color:var(--white-font-color);
-        width:100vw;
-        text-align: center;
-        height:2.6rem;
-        justify-content: center;
-        align-items: center;
-    }
-    .app-content{
-        margin:0.8rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        box-sizing: border-box;
+        overflow-y: auto;
     }
 }

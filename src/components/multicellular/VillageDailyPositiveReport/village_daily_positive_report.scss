@@ -1,13 +1,14 @@
-.todays-report-container {
-    display:flex;
+.village_daily_positive_report-container {
+    display: flex;
     flex-direction: column;
     --default-margin-top: 0.75rem;
     margin-top: var(--default-margin-top);
+    max-height: 100%;
 }
 
-.status-container-main {
+.village_daily_positive_report-title-and-dowload {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: var(--default-margin-top);
+    align-items: center;
 }

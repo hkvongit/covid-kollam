@@ -1,0 +1,13 @@
+.status_card_small_long{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:3%;
+    box-sizing: border-box;
+    background:var(--status-grey);
+    min-width:10rem;
+    width:48%;
+    height:2rem;
+    border-radius: 0.3rem;
+
+}

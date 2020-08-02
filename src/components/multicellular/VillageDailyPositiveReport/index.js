@@ -1,0 +1,2 @@
+import VillageDialyPositiveReport from './VillageDialyPositiveReport'
+export default VillageDialyPositiveReport

@@ -9,24 +9,38 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 :root {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /* color theme */
   /* status colors */
-  --status-red: #E74C3C;
-  --status-green: #2ECC71;
-  --status-yellow: #F39C12;
-  --light-ash: #DFE4EA;
+  --status-red: #e74c3c;
+  --status-green: #2ecc71;
+  --status-yellow: #f39c12;
+  --status-grey: #c4c4c4;
+  --light-ash: #dfe4ea;
   /* font colors  */
-  --yellow-font-color: #F1C40F;
-  --white-font-color: #FAFAFA;
-  --headline-font-color: #57606F;
-  --primary-font-color: #4B6584;
+  --yellow-font-color: #f1c40f;
+  --white-font-color: #fafafa;
+  --headline-font-color: #57606f;
+  --primary-font-color: #4b6584;
   /* theme specific */
-  --theme-color-primary: #0984E3;
+  --theme-color-primary: #0984e3;
+  /* border colors */
+  --color-border-grey: #bdc3c7;
+  /* general-colors */
+  --deep-blue:#2c3e50;
+  /* button shadows */
+  --button-shadow-level-1: 0px 0px 5px 2px rgba(0, 0, 0, 0.35);
+  --button-shadow-level-2: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+  --button-shadow-level-4: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+  /* border-radius */
+  --border-rad-small: 0.3rem;
+
+  /* margins */
+  --default-margin:0.75rem;
 }
 
 /* font styles */
@@ -35,24 +49,31 @@ code {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
 }
 
 .title-text-thin {
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.text-title-micro {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.69rem;
 }
 
 .status-card-title-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 13px;
+  font-size: 0.688rem;
+  line-height: 0.813rem;
   display: flex;
   align-items: center;
   text-align: center;
@@ -62,13 +83,23 @@ code {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 1.375rem;
+  line-height: 1.1625rem;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
+.small-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.6rem;
+  line-height: 0.75rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .white-font-color {
   color: var(--white-font-color);
 }
