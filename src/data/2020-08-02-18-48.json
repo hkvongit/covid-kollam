@@ -5,7 +5,7 @@
         "statusCardDataMain": [
             {
                 "title": "Positive Case",
-                "count": "77",
+                "count": "69",
                 "backgroundColor": "var(--status-yellow)"
             },
             {
