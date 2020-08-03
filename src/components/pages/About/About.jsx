@@ -21,7 +21,7 @@ export default function About(props) {
         contact:{
             title:"Contact US",
             rumi:"Rumi - ruminajeeb@gmail.com",
-            hkv: "HKV - brosgiant@gmail.com"
+            hkv: "Harikrishnan V - brosgiant@gmail.com"
         }
     }
     return (
