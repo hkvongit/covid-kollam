@@ -8,11 +8,11 @@ export default function About(props) {
     const data = {
         covidKollamProject: {
             title: "ABOUT COVID KOLLAM",
-            content: "This project offers village based covid case details in the district of kollam (Kerala).The infromation is updated everyday at 7 pm. This is an open source project,so anyone who wants to develope similar projects, we encourage you to utilize the information we are sharing."
+            content: "This project offers village based covid case details in the district of kollam (Kerala).The information is updated everyday at 7 pm. This is an open source project,so anyone who wants to develop similar projects, we encourage you to utilize the information we are sharing."
         },
         malluNerd: {
             title: "WE ? - MALLU NERDS",
-            content: "We are a group of nerds, aims to  implement our knowledge for the development of various open-source projects. The purpose of our team is to help society, using technology we know. The reason why we are deveolping such open souce  projects is we want to share the knwoledge we have to those who wants to do the same."
+            content: "We are a group of nerds, aims to  implement our knowledge for the development of various open-source projects. The purpose of our team is to help society, using technology we know. The reason why we are developing such open-source  projects is we want to share the knowledge we have to those who wants to do the same."
         },
         thanks:{
             title:"Thank you",
