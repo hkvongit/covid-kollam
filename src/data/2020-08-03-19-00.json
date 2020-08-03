@@ -1,0 +1,101 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "03 August 2020 - Monday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "57",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "40",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "0",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Case",
+                "count": "583",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarentined",
+                "count": "9012",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Thenmala",
+            "count": "1"
+        },
+        {
+            "locality": "Karavaloor",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam East and West",
+            "count": "1"
+        },
+        {
+            "locality": "Kottarakkara",
+            "count": "1"
+        },
+        {
+            "locality": "Thrikkadavoor",
+            "count": "1"
+        },
+        {
+            "locality": "Punalur",
+            "count": "1"
+        },
+        {
+            "locality": "Neendakara",
+            "count": "5"
+        },
+        {
+            "locality": "Thrikkovilvattom",
+            "count": "1"
+        },
+        {
+            "locality": "Eroor",
+            "count": "1"
+        },
+        {
+            "locality": "Mandrothuruth",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam others",
+            "count": "43"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Total Report",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "962",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "815",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "2",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}
