@@ -27,7 +27,7 @@ export default function About(props) {
     return (
         <div className="about_page">
             <TitleBar history={props.history} isAboutButtonDisabled />
-            <div class="about-us-container">
+            <div className="about-us-container">
                 <TextBox {...data.covidKollamProject} />
                 <TextBox {...data.malluNerd} />
                 <TextBox {...data.thanks} />
