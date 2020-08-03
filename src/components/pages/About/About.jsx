@@ -16,7 +16,7 @@ export default function About(props) {
         },
         thanks:{
             title:"Thank you",
-            content:"First of all we thank our dearest healthworkers, kerala police, other officers and our govt. for showcasing such great resistance agains COVID-19. Together we can rebuilt our Kerala. Proud to be Keralites."
+            content:"First of all we thank our dearest healthworkers, kerala police, other officers and our govt. for showcasing such great resistance against COVID-19. Together we can overcome this hard time. Proud to be Keralites."
         },
         contact:{
             title:"Contact US",
