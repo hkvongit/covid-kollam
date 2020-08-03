@@ -11,6 +11,9 @@
     padding-right: 1rem;
     align-items: center;
     box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .title-bar-btn {

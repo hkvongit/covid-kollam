@@ -3,6 +3,7 @@
 .dashboard {
     .app-content {
         margin: 0.8rem;
+        margin-top:0rem;
         max-height: calc(100vh - 2.6rem);
         height: 100%;
         display: flex;
@@ -10,6 +11,6 @@
         justify-content: space-between;
         align-items: stretch;
         box-sizing: border-box;
-        overflow-y: auto;
+        // overflow-y: auto;
     }
 }

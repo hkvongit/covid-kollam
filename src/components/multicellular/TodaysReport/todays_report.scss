@@ -3,6 +3,7 @@
     flex-direction: column;
     --default-margin-top: 0.75rem;
     margin-top: var(--default-margin-top);
+    margin-bottom: var(--default-margin-top);
 }
 
 .status-container-main {
