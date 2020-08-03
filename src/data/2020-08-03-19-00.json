@@ -4,7 +4,7 @@
         "date": "03 August 2020 - Monday",
         "statusCardDataMain": [
             {
-                "title": "Positive Case",
+                "title": "Positive Cases",
                 "count": "57",
                 "backgroundColor": "var(--status-yellow)"
             },
@@ -21,12 +21,12 @@
         ],
         "statusCardDataSub": [
             {
-                "title": "Active Case",
+                "title": "Active Cases",
                 "count": "583",
                 "backgroundColor": "var(--status-yellow)"
             },
             {
-                "title": "Quarentined",
+                "title": "Quarantined",
                 "count": "9012",
                 "backgroundColor": "var(--status-green)"
             }
@@ -82,7 +82,7 @@
         "title": "Total Report",
         "statusCardDataMain": [
             {
-                "title": "Positive Case",
+                "title": "Positive Cases",
                 "count": "962",
                 "backgroundColor": "var(--status-yellow)"
             },
