@@ -4,11 +4,11 @@
     .app-content {
         margin: 0.8rem;
         margin-top:0rem;
-        min-height: calc(100vh - 2.6rem);
+        min-height: calc(100vh - 7rem);
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: stretch;
         box-sizing: border-box;
         // overflow-y: auto;

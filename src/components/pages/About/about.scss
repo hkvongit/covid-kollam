@@ -1,5 +1,10 @@
 .about-us-container{
     margin:0.87rem;
+    display:flex;
+    flex-direction: column;
+    min-height: calc(100vh - 7rem);
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 .contact-title{
     margin-bottom: 0.75rem;
