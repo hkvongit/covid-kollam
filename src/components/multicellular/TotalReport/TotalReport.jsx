@@ -23,6 +23,7 @@ export default function TotalReport(props) {
     //     ]
     // }
     const data = props
+    const opacityLevel = 'level-1'
     return (
         <div className="todays-report-container">
             <label className="title-text-regular">
@@ -31,7 +32,7 @@ export default function TotalReport(props) {
             <div className="status-container-main">
                 {data.statusCardDataMain.map((individualStatusData) => {
                     return (
-                        <StatusCardLarge {...individualStatusData} key={individualStatusData.title} />
+                        <StatusCardLarge {...individualStatusData} key={individualStatusData.title} opacityLevel={opacityLevel} />
                     )
                 })}
             </div>
