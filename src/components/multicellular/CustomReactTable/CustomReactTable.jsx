@@ -48,7 +48,7 @@ function DefaultColumnFilter({
             onChange={e => {
                 setFilter(e.target.value || undefined) // Set undefined to remove the filter entirely
             }}
-            placeholder={`🔎 Search here for your locality `}
+            placeholder={`Search here for your locality `}
         />
     )
 }
@@ -250,7 +250,6 @@ function Table({ columns, data }) {
     // it for this use case
     const firstPageRows = rows.slice(0, 5)
     // headerGroups = headerGroups.shift()
-    console.log("firstPageRows", firstPageRows)
     return (
         <div className="table-container">
             <table {...getTableProps()} className="normal-table">
@@ -393,7 +392,6 @@ export default function CustomReactTable(props) {
         ]
         */
     //    React.useMemo(() => makeData(100000), [])
-    console.log("data", props)
     return (
         <Table columns={columns} data={props.data} />
     )

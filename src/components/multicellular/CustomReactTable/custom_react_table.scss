@@ -7,8 +7,8 @@
     width: 100%;
     padding: 0.5rem 0.5rem;
     box-sizing: border-box;
-    margin-top:var(--default-margin);
-    min-height:20rem;
+    margin-top: var(--default-margin);
+    min-height: 20rem;
 }
 
 .normal-table {
@@ -48,6 +48,8 @@
         border-radius: var(--border-rad-small);
         border-style: none;
         box-shadow: var(--button-shadow-level-1);
+        border: 0.5px solid var(--theme-color-primary);
+        -webkit-appearance: none;
         height: 2rem;
         &::placeholder {
             color: var(--status-grey);

@@ -2,7 +2,6 @@ import React from 'react'
 import './text_box.scss'
 
 export default function TextBox(props) {
-    console.log(props)
     return (
         <div className="text_box">
             <div className="text_box_title-container">

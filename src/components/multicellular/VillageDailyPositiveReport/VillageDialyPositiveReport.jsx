@@ -8,7 +8,6 @@ import './village_daily_positive_report.scss'
 export default function VillageDialyPositiveReport(props) {
     const title = "Local Administration Daily Data ( Villages ) "
     const data = props
-    console.log(props)
     return (
         <div className="village_daily_positive_report-container">
             <div className="village_daily_positive_report-title-and-dowload">

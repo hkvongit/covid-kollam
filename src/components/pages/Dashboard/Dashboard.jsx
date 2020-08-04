@@ -9,11 +9,10 @@ import './dashboard.scss'
 export default class Dashboard extends Component {
 
     render() {
-        console.log(data)
         return (
             <div className="dashboard">
                 <TitleBar history={this.props.history} isHomeButtonDisabled/>
-                <div class="app-content">
+                <div className="app-content">
                     <TodaysReport {...data.TodaysReportData} />
                     <VillageDialyPositiveReport data={data.VillageStatsData} />
                     <TotalReport {...data.TotalReportData} />
