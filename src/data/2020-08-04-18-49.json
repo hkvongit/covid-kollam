@@ -103,17 +103,17 @@
         "statusCardDataMain": [
             {
                 "title": "Positive Cases",
-                "count": "1083",
+                "count": "1934",
                 "backgroundColor": "var(--status-yellow)"
             },
             {
                 "title": "Cured",
-                "count": "1021",
+                "count": "1353",
                 "backgroundColor": "var(--status-green)"
             },
             {
                 "title": "Death",
-                "count": "3",
+                "count": "9",
                 "backgroundColor": "var(--status-red)"
             }
         ]
