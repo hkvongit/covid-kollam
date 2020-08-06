@@ -1,0 +1,97 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "06 August 2020 - Thursday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Cases",
+                "count": "31",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "49",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "0",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Cases",
+                "count": "533",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarantined",
+                "count": "8511",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Sooranad",
+            "count": "1"
+        },
+        {
+            "locality": "Kulathupuzha",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam East and West",
+            "count": "10"
+        },
+        {
+            "locality": "Sasthamkotta",
+            "count": "1"
+        },
+        {
+            "locality": "Elamad",
+            "count": "1"
+        },
+        {
+            "locality": "Kulasekharapuram",
+            "count": "1"
+        },
+        {
+            "locality": "Neduvathur",
+            "count": "3"
+        },
+        {
+            "locality": "Kottarakkara",
+            "count": "2"
+        },
+        {
+            "locality": "Chavara",
+            "count": "1"
+        },
+        {
+            "locality": "Others",
+            "count": "10"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Cumulative - Total Reported in Kollam dist.",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Cases",
+                "count": "1997",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "1454",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "10",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}
