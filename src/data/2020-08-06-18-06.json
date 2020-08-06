@@ -70,8 +70,12 @@
             "count": "1"
         },
         {
-            "locality": "Others",
-            "count": "10"
+            "locality": "Others - Tamil Nadu natives",
+            "count": "5"
+        },
+        {
+            "locality": "Others - District jail inmates",
+            "count": "5"
         }
     ],
     "TotalReportData": {
