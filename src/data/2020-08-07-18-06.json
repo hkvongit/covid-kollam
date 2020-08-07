@@ -1,0 +1,97 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "07 August 2020 - Friday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Cases",
+                "count": "36",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "32",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "0",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Cases",
+                "count": "482",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarantined",
+                "count": "8023",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Village wise count will be updated as soon as data is available",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        },
+        {
+            "locality": "",
+            "count": ""
+        }
+    ],
+    "TotalReportData": {
+        "title": "Cumulative - Total Reported in Kollam dist.",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Cases",
+                "count": "2033",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "1540",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "11",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}
