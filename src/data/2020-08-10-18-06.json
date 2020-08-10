@@ -1,0 +1,121 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "10 August 2020 - Monday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "41",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "34",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "1",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Case",
+                "count": "566",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarentined",
+                "count": "7710",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Kulasekharapuram",
+            "count": "1"
+        },
+        {
+            "locality": "Thalavoor",
+            "count": "1"
+        },
+        {
+            "locality": "Paravoor",
+            "count": "12"
+        },
+        {
+            "locality": "Piravanthoor",
+            "count": "3"
+        },
+        {
+            "locality": "Panmana",
+            "count": "5"
+        },
+        {
+            "locality": "Punalur",
+            "count": "3"
+        },
+        {
+            "locality": "Thrikkaruva",
+            "count": "1"
+        },
+        {
+            "locality": "Mukhathala",
+            "count": "1"
+        },
+        {
+            "locality": "Vettikkavala",
+            "count": "1"
+        },
+        {
+            "locality": "Thenmala",
+            "count": "3"
+        },
+        {
+            "locality": "Poothakulam",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam East and West",
+            "count": "2"
+        },
+        {
+            "locality": "Anchal",
+            "count": "3"
+        },
+        {
+            "locality": "Ittiva",
+            "count": "1"
+        },
+        {
+            "locality": "Chavara",
+            "count": "2"
+        },
+        {
+            "locality": "Others - Tamil Nadu natives",
+            "count": "1"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Cumulative - Total Reported in Kollam dist.",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "2222",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "1645",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "11",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}
