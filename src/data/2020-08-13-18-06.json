@@ -1,0 +1,173 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "13 August 2020 - Thursday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "74",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "73",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "0",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Case",
+                "count": "538",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarentined",
+                "count": "7418",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Anchal",
+            "count": "2"
+        },
+        {
+            "locality": "Chadayamangalam",
+            "count": "1"
+        },
+        {
+            "locality": "Chavara",
+            "count": "2"
+        },
+        {
+            "locality": "Edamon",
+            "count": "1"
+        },
+        {
+            "locality": "Elamad",
+            "count": "1"
+        },
+        {
+            "locality": "Kadakkal",
+            "count": "3"
+        },
+        {
+            "locality": "Kalluvathukkal",
+            "count": "8"
+        },
+        {
+            "locality": "Kareepra",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam East and West",
+            "count": "10"
+        },
+        {
+            "locality": "Kottamkara",
+            "count": "2"
+        },
+        {
+            "locality": "Kottarakkara",
+            "count": "1"
+        },
+        {
+            "locality": "Kulathupuzha",
+            "count": "6"
+        },
+        {
+            "locality": "Kummil",
+            "count": "1"
+        },
+        {
+            "locality": "Neendakara",
+            "count": "2"
+        },
+        {
+            "locality": "Ochira",
+            "count": "1"
+        },
+        {
+            "locality": "Paravoor",
+            "count": "7"
+        },
+        {
+            "locality": "Parippally",
+            "count": "4"
+        },
+        {
+            "locality": "Perinad",
+            "count": "2"
+        },
+        {
+            "locality": "Punalur",
+            "count": "5"
+        },
+        {
+            "locality": "Sasthamkotta",
+            "count": "1"
+        },
+        {
+            "locality": "Sooranad North",
+            "count": "3"
+        },
+        {
+            "locality": "Thalavoor",
+            "count": "1"
+        },
+        {
+            "locality": "Thazhuthala",
+            "count": "1"
+        },
+        {
+            "locality": "Thenmala",
+            "count": "2"
+        },
+        {
+            "locality": "Thrikkovilvattom",
+            "count": "1"
+        },
+        {
+            "locality": "Ummannur",
+            "count": "1"
+        },
+        {
+            "locality": "Thrikkovilvattom",
+            "count": "1"
+        },
+        {
+            "locality": "Vilakudy",
+            "count": "2"
+        },
+        {
+            "locality": "Others",
+            "count": "2"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Cumulative - Total Reported in Kollam dist.",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "2327",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "1777",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "12",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}
