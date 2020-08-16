@@ -1,44 +1,104 @@
 {
     "TodaysReportData": {
         "title": "Today's Report",
-        "date": "02 August 2020 - Sunday",
+        "date": "15 August 2020 - Saturday",
         "statusCardDataMain": [
             {
                 "title": "Positive Case",
-                "count": "69",
+                "count": "91",
                 "backgroundColor": "var(--status-yellow)"
             },
             {
                 "title": "Cured",
-                "count": "168",
+                "count": "42",
                 "backgroundColor": "var(--status-green)"
             },
             {
                 "title": "Death",
-                "count": "0",
+                "count": "1",
                 "backgroundColor": "var(--status-red)"
             }
         ],
         "statusCardDataSub": [
             {
                 "title": "Active Case",
-                "count": "571",
+                "count": "627",
                 "backgroundColor": "var(--status-yellow)"
             },
             {
                 "title": "Quarentined",
-                "count": "8548",
+                "count": "7837",
                 "backgroundColor": "var(--status-green)"
             }
         ]
     },
     "VillageStatsData": [
         {
-            "locality": "Karunagapally",
+            "locality": "Anchal",
             "count": "1"
         },
         {
-            "locality": "Thrikkaruva",
+            "locality": "Chavara",
+            "count": "2"
+        },
+        {
+            "locality": "Edamulakkal",
+            "count": "1"
+        },
+        {
+            "locality": "Elamad",
+            "count": "1"
+        },
+        {
+            "locality": "Elampallur",
+            "count": "3"
+        },
+        {
+            "locality": "Ezhukone",
+            "count": "1"
+        },
+        {
+            "locality": "Kadakkal",
+            "count": "1"
+        },
+        {
+            "locality": "Karavaloor",
+            "count": "1"
+        },
+        {
+            "locality": "Karunagappally",
+            "count": "4"
+        },
+        {
+            "locality": " Kollam East and West",
+            "count": "19"
+        },
+        {
+            "locality": "Kunnathur",
+            "count": "1"
+        },
+        {
+            "locality": "Mayyanad",
+            "count": "1"
+        },
+        {
+            "locality": "Mynagappally",
+            "count": "2"
+        },
+        {
+            "locality": "Nedumpana",
+            "count": "4"
+        },
+        {
+            "locality": "Neendakara",
+            "count": "2"
+        },
+        {
+            "locality": "Nilamel",
+            "count": "8"
+        },
+        {
+            "locality": "Panayam",
             "count": "1"
         },
         {
@@ -46,142 +106,74 @@
             "count": "1"
         },
         {
-            "locality": "Kulathupuzha",
-            "count": "3"
+            "locality": "Perinad",
+            "count": "1"
         },
         {
-            "locality": "Kummil",
+            "locality": "Poothakulam",
             "count": "2"
-        },
-        {
-            "locality": "Karavaloor",
-            "count": "1"
-        },
-        {
-            "locality": "Kunnathur",
-            "count": "1"
-        },
-        {
-            "locality": "Kollam East and West",
-            "count": "5"
-        },
-        {
-            "locality": "Thrikkaruva",
-            "count": "1"
-        },
-        {
-            "locality": "Nilamel",
-            "count": "1"
-        },
-        {
-            "locality": "Ochira",
-            "count": "1"
-        },
-        {
-            "locality": "Pathanapuram",
-            "count": "1"
         },
         {
             "locality": "Poruvazhi",
             "count": "1"
         },
         {
-            "locality": "Kottarakkara",
-            "count": "2"
-        },
-        {
-            "locality": "Anchal",
-            "count": "4"
-        },
-        {
-            "locality": "Sooranad South",
-            "count": "2"
-        },
-        {
             "locality": "Punalur",
+            "count": "2"
+        },
+        {
+            "locality": "Sasthamkotta",
             "count": "4"
         },
         {
-            "locality": "Neendakara",
+            "locality": "Thazhava",
             "count": "3"
         },
         {
-            "locality": "Melila",
-            "count": "3"
+            "locality": "Thenmala",
+            "count": "4"
         },
         {
-            "locality": "Edamulakkal",
-            "count": "1"
+            "locality": "Thodiyoor",
+            "count": "2"
+        },
+        {
+            "locality": "Thrikkaruva",
+            "count": "3"
         },
         {
             "locality": "Thrikkovilvattom",
-            "count": "1"
-        },
-        {
-            "locality": "Kulathupuzha",
-            "count": "2"
-        },
-        {
-            "locality": "Eroor",
-            "count": "1"
-        },
-        {
-            "locality": "Chithara",
-            "count": "1"
-        },
-        {
-            "locality": "Nedumpana",
-            "count": "1"
-        },
-        {
-            "locality": "Vilakudy",
-            "count": "1"
-        },
-        {
-            "locality": "Meenad",
-            "count": "1"
-        },
-        {
-            "locality": "Sooranad North",
-            "count": "1"
+            "count": "6"
         },
         {
             "locality": "Velinallur",
             "count": "1"
         },
         {
-            "locality": "Thazhava",
+            "locality": "Veliyam",
             "count": "1"
         },
         {
-            "locality": "Ittiva",
-            "count": "1"
-        },
-        {
-            "locality": "Thazhuthala",
-            "count": "1"
-        },
-        {
-            "locality": "Kollam others",
-            "count": "17"
+            "locality": "OTHERS",
+            "count": "7"
         }
     ],
     "TotalReportData": {
-        "title": "Total Report",
+        "title": "Cumulative - Total Reported in Kollam dist.",
         "statusCardDataMain": [
             {
                 "title": "Positive Case",
-                "count": "1169",
+                "count": "2493",
                 "backgroundColor": "var(--status-yellow)"
             },
             {
                 "title": "Cured",
-                "count": "688",
+                "count": "1853",
                 "backgroundColor": "var(--status-green)"
             },
             {
                 "title": "Death",
-                "count": "1",
+                "count": "13",
                 "backgroundColor": "var(--status-red)"
             }
         ]

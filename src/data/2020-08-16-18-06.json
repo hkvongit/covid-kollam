@@ -1,0 +1,157 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "16 August 2020 - Sunday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "81",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "55",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "1",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Case",
+                "count": "636",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarentined",
+                "count": "7844",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Kollam East and West",
+            "count": "10"
+        },
+        {
+            "locality": "Punalur",
+            "count": "4"
+        },
+        {
+            "locality": "Paravoor",
+            "count": "3"
+        },
+        {
+            "locality": "Karunagapally",
+            "count": "5"
+        },
+        {
+            "locality": "Anchal",
+            "count": "6"
+        },
+        {
+            "locality": "Alayaman",
+            "count": "3"
+        },
+        {
+            "locality": "Adichanallur",
+            "count": "2"
+        },
+        {
+            "locality": "Edamulakkal",
+            "count": "2"
+        },
+        {
+            "locality": "Elamad",
+            "count": "3"
+        },
+        {
+            "locality": "Eroor",
+            "count": "3"
+        },
+        {
+            "locality": "Karavaloor",
+            "count": "2"
+        },
+        {
+            "locality": "Kalluvathukkal",
+            "count": "5"
+        },
+        {
+            "locality": "Clappana",
+            "count": "1"
+        },
+        {
+            "locality": "Chadayamangalam",
+            "count": "11"
+        },
+        {
+            "locality": "Chavara",
+            "count": "4"
+        },
+        {
+            "locality": "Thodiyoor",
+            "count": "2"
+        },
+        {
+            "locality": "Nilamel",
+            "count": "1"
+        },
+        {
+            "locality": "Neduvathur",
+            "count": "1"
+        },
+        {
+            "locality": "Panmana",
+            "count": "2"
+        },
+        {
+            "locality": "Mayyanad",
+            "count": "1"
+        },
+        {
+            "locality": "Mynagappally",
+            "count": "1"
+        },
+        {
+            "locality": "Pooyappally",
+            "count": "2"
+        },
+        {
+            "locality": "West Kallada",
+            "count": "1"
+        },
+        {
+            "locality": "Sasthamkotta",
+            "count": "2"
+        },
+        {
+            "locality": "Others",
+            "count": "4"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Cumulative - Total Reported in Kollam dist.",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Case",
+                "count": "2574",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "1923",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "15",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}

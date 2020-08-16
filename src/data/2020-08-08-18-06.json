@@ -1,0 +1,141 @@
+{
+    "TodaysReportData": {
+        "title": "Today's Report",
+        "date": "08 August 2020 - Saturday",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Cases",
+                "count": "41",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "38",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "1",
+                "backgroundColor": "var(--status-red)"
+            }
+        ],
+        "statusCardDataSub": [
+            {
+                "title": "Active Cases",
+                "count": "486",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Quarantined",
+                "count": "7743",
+                "backgroundColor": "var(--status-green)"
+            }
+        ]
+    },
+    "VillageStatsData": [
+        {
+            "locality": "Thrikkovilvattom",
+            "count": "2"
+        },
+        {
+            "locality": "Elampallur",
+            "count": "1"
+        },
+        {
+            "locality": "Parippally",
+            "count": "1"
+        },
+        {
+            "locality": "Meenad",
+            "count": "1"
+        },
+        {
+            "locality": "Panayam",
+            "count": "1"
+        },
+        {
+            "locality": "Pooyappally",
+            "count": "1"
+        },
+        {
+            "locality": "Kollam East and West",
+            "count": "3"
+        },
+        {
+            "locality": "Chavara",
+            "count": "3"
+        },
+        {
+            "locality": "Perinad",
+            "count": "1"
+        },
+        {
+            "locality": "Nilamel",
+            "count": "2"
+        },
+        {
+            "locality": "Neendakara",
+            "count": "1"
+        },
+        {
+            "locality": "Mylam",
+            "count": "1"
+        },
+        {
+            "locality": "Paravoor",
+            "count": "1"
+        },
+        {
+            "locality": "Elamad",
+            "count": "2"
+        },
+        {
+            "locality": "Alappad",
+            "count": "1"
+        },
+        {
+            "locality": "Kulathupuzha",
+            "count": "8"
+        },
+        {
+            "locality": "Neduvathur",
+            "count": "2"
+        },
+        {
+            "locality": "Sasthamkotta",
+            "count": "2"
+        },
+        {
+            "locality": "Pathanapuram",
+            "count": "4"
+        },
+        {
+            "locality": "Chadayamangalam",
+            "count": "2"
+        },
+        {
+            "locality": "Others - District jail inmates",
+            "count": "1"
+        }
+    ],
+    "TotalReportData": {
+        "title": "Cumulative - Total Reported in Kollam dist.",
+        "statusCardDataMain": [
+            {
+                "title": "Positive Cases",
+                "count": "2075",
+                "backgroundColor": "var(--status-yellow)"
+            },
+            {
+                "title": "Cured",
+                "count": "1578",
+                "backgroundColor": "var(--status-green)"
+            },
+            {
+                "title": "Death",
+                "count": "11",
+                "backgroundColor": "var(--status-red)"
+            }
+        ]
+    }
+}
