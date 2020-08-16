@@ -3,7 +3,7 @@
 .dashboard {
     .app-content {
         margin: 0.8rem;
-        margin-top:0rem;
+        margin-top: 0rem;
         min-height: calc(100vh - 7rem);
         height: 100%;
         display: flex;
@@ -13,4 +13,12 @@
         box-sizing: border-box;
         // overflow-y: auto;
     }
+}
+
+.loader-carrier{
+    display:flex;
+    min-height: calc(100vh - 7rem);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }

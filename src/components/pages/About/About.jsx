@@ -3,7 +3,6 @@ import TitleBar from '../../multicellular/TitleBar'
 import TextBox from '../../unicellular/TextBox'
 import './about.scss'
 
-
 export default function About(props) {
     const data = {
         covidKollamProject: {
