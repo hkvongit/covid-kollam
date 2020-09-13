@@ -17,8 +17,13 @@
 
 .loader-carrier{
     display:flex;
+    flex-direction: column;
     min-height: calc(100vh - 7rem);
     margin: auto;
     justify-content: center;
     align-items: center;
+
+    .covid-kollam-loader-text{
+        margin-top:2rem;
+    }
 }

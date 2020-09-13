@@ -27,6 +27,7 @@ export default class Dashboard extends Component {
             return (
                 <div className="loader-carrier">
                     <CradleLoader />
+                    <label className="covid-kollam-loader-text">COVID-19 KOLLAM DAILY UPDATES</label>
                 </div>
             )
         }
