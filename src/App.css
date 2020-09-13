@@ -1,4 +1,3 @@
-.app{
-
-
+.App {
+    margin-bottom: calc(var(--nav-bar-height) * 1.5);
 }

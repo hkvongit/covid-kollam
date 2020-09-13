@@ -4,7 +4,6 @@ import TotalReport from '../../multicellular/TotalReport'
 import VillageDialyPositiveReport from '../../multicellular/VillageDailyPositiveReport'
 import CradleLoader from '../../unicellular/CradleLoader'
 import { dailyDataDB } from '../../../config/firebase'
-import TitleBar from '../../multicellular/TitleBar'
 import './dashboard.scss'
 
 export default class Dashboard extends Component {
@@ -34,10 +33,9 @@ export default class Dashboard extends Component {
         const data = this.state.data
         return (
             <div className="dashboard">
-                <TitleBar history={this.props.history} isHomeButtonDisabled />
                 <div className="app-content">
                     <TodaysReport {...data.TodaysReportData} />
-                    <VillageDialyPositiveReport villageData={data.VillageStatsData} reportDocLink = {data.reportDocLink}/>
+                    <VillageDialyPositiveReport villageData={data.VillageStatsData} reportDocLink={data.reportDocLink} />
                     <TotalReport {...data.TotalReportData} />
                 </div>
             </div>

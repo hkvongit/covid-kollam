@@ -182,7 +182,7 @@ function fuzzyTextFilterFn(rows, id, filterValue) {
 fuzzyTextFilterFn.autoRemove = val => !val
 
 // Our table component
-function Table({ columns, data }) {
+function Table({ columns, data, pageSize }) {
     const filterTypes = React.useMemo(
         () => ({
             // Add a new fuzzyTextFilterFn filter type.
@@ -239,7 +239,7 @@ function Table({ columns, data }) {
             data,
             defaultColumn, // Be sure to pass the defaultColumn option
             filterTypes,
-            initialState: { pageSize: 10 }
+            initialState: { pageSize: pageSize }
         },
         useFilters, // useFilters!
         useGlobalFilter, // useGlobalFilter!
@@ -393,6 +393,6 @@ export default function CustomReactTable(props) {
         */
     //    React.useMemo(() => makeData(100000), [])
     return (
-        <Table columns={columns} data={props.data} />
+        <Table columns={props.columns} data={props.data} pageSize={!!parseInt(props.pageSize) ? parseInt(props.pageSize) : 10} />
     )
 }

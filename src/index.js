@@ -10,6 +10,7 @@ const routing = (
     <div>
       <Route exact path="/" component={App} />
       <Route path="/about" component={App} />
+      <Route path="/containment-zones" component={App} />
     </div>
   </Router>
 )

@@ -22,3 +22,6 @@ const db = firebase.firestore()
 // export const dailyDataDB = database.child('dailyData')
 
 export const dailyDataDB = db.collection('dailyData')
+export const containmentZonesDB = db.collection('containmentZones')
+
+
