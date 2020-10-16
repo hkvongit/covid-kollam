@@ -5,9 +5,11 @@
     width: 100%;
     position: fixed;
     bottom: 0px;
-    background: #ffffff;
+    //background: #ffffff;
     height: var(--nav-bar-height);
     box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px 10px 0px 0px;
+    backdrop-filter: saturate(150%) blur(20px);
+    background-color: rgba(255,255,255,0.2);
     // border: 1px solid red;
 }
