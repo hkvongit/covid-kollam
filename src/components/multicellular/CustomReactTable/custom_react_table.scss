@@ -47,8 +47,8 @@
         padding-left: 0.5rem;
         border-radius: var(--border-rad-small);
         border-style: none;
-        box-shadow: var(--button-shadow-level-1);
-        border: 0.5px solid var(--theme-color-primary);
+        // box-shadow: var(--button-shadow-level-1);
+        border: 0.5px solid var(--status-grey);
         -webkit-appearance: none;
         height: 2rem;
         &::placeholder {
@@ -127,14 +127,14 @@
     display: inline-block;
     cursor: pointer;
     background-color: var(--theme-color-primary);
-    box-shadow: var(--button-shadow-level-1);
+    // box-shadow: var(--button-shadow-level-1);
     border-radius: var(--border-rad-small);
 }
 .table-nav-btn:disabled {
     background-color: #ccc;
     color: #666666;
     cursor: no-drop;
-    box-shadow: var(--button-shadow-level-4);
+    // box-shadow: var(--button-shadow-level-4);
 }
 
 // customizing select

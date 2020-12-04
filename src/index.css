@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 100vw;
+  padding-left: auto;
 }
 
 code {
@@ -26,12 +27,15 @@ code {
   --white-font-color: #fafafa;
   --headline-font-color: #57606f;
   --primary-font-color: #4b6584;
+  --deep-black-font-color: #000000;
   /* theme specific */
   --theme-color-primary: #0984e3;
   /* border colors */
   --color-border-grey: #bdc3c7;
   /* general-colors */
   --deep-blue: #2c3e50;
+  /* inactive-button-color */
+  --inactive-button-color: #8d989c;
   /* button shadows */
   --button-shadow-level-1: 0px 0px 5px 2px rgba(0, 0, 0, 0.35);
   --button-shadow-level-2: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);

@@ -1,3 +1,5 @@
 .App {
+    max-width: 30rem;
+    margin: auto;
     margin-bottom: calc(var(--nav-bar-height) * 1.5);
 }

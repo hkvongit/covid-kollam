@@ -50,8 +50,9 @@ export default function NavBar(props) {
                 onClick={() => handleButtonClick('/')}
             />
             <NavBarButton
-                primaryText="Containment"
-                secondaryText="Zones"
+                // primaryText="Containment"
+                // secondaryText="Zones"
+                primaryText="Zones"
                 render={
                     <ContainmentZoneSVG
                         enabled={containamentZonesButtonState}
