@@ -25,6 +25,11 @@ function App(props) {
         return (CONTAINMENT_ZONE_PAGE)
     }
   }
+
+  window.onunload = () =>{
+    sessionStorage.clear()
+  } 
+
   return (
     <div className="App">
       <Switch>

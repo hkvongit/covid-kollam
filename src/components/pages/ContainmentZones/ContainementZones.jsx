@@ -7,7 +7,8 @@ import { containmentZonesDB } from '../../../config/firebase'
 import './containment_zone.scss'
 
 export default function ContainementZones() {
-    const [data, setData] = React.useState(null)
+    const containmentZoneDataSessioned = sessionStorage.getItem("containementZoneData")
+    const [data, setData] = React.useState(containmentZoneDataSessioned ? JSON.parse(containmentZoneDataSessioned) : null)
     const title = "Containment Zones in Kollam"
     const columns = React.useMemo(
         () => [
@@ -28,11 +29,19 @@ export default function ContainementZones() {
         []
     )
     React.useEffect(() => {
-        containmentZonesDB.orderBy("dateInNumber", 'desc').limit(1).get().then((documents) => {
-            documents.forEach((doc) => {
-                setData(doc.data())
+        const isContainmentZoneDataSessioned = !!sessionStorage.getItem("containementZoneData")
+        console.log("isContainmentZoneDataSessioned",isContainmentZoneDataSessioned)
+        if(!isContainmentZoneDataSessioned){
+            containmentZonesDB.orderBy("dateInNumber", 'desc').limit(1).get().then((documents) => {
+                documents.forEach((doc) => {
+                    sessionStorage.setItem("containementZoneData",JSON.stringify(doc.data()))
+                    setData(JSON.parse(sessionStorage.getItem("containementZoneData")))
+                })
             })
-        })
+        }
+        else{
+            setData(JSON.parse(sessionStorage.getItem("containementZoneData")))
+        }
     }, [])
     /*
     componentDidMount() {
@@ -43,7 +52,7 @@ export default function ContainementZones() {
         })
     }
     */
-    if (data == null) {
+    if (!data) {
         return (
             <div className="loader-carrier">
                 <CradleLoader />

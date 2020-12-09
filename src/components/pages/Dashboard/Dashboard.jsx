@@ -16,11 +16,18 @@ export default class Dashboard extends Component {
     }
 
     componentDidMount() {
-        dailyDataDB.orderBy("dateInNumber", 'desc').limit(1).get().then((documents) => {
-            documents.forEach((doc) => {
-                this.setState({ data: doc.data() })
+        const dailyDataSessioned = sessionStorage.getItem("dailyData")
+        if (!dailyDataSessioned) {
+            dailyDataDB.orderBy("dateInNumber", 'desc').limit(1).get().then((documents) => {
+                documents.forEach((doc) => {
+                    sessionStorage.setItem("dailyData", JSON.stringify(doc.data()))
+                    this.setState({ data: true })
+                })
             })
-        })
+        }
+        else{
+            this.setState({ data: true })
+        }
     }
     render() {
         if (this.state.data == null) {
@@ -31,7 +38,7 @@ export default class Dashboard extends Component {
                 </div>
             )
         }
-        const data = this.state.data
+        const data = JSON.parse(sessionStorage.getItem("dailyData"))
         return (
             <div className="dashboard">
                 <div className="app-content">
